@@ -7,8 +7,8 @@ Dependencies
 
 * Python 2.7 - (https://www.python.org/downloads/)
 * bazel - First do this in Ubuntu 16.04 
-* wget https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg 
-* sudo apt-key add apt-key.pub.gpg
+* `wget https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg`
+* `sudo apt-key add apt-key.pub.gpg`
 * instructions [here](http://bazel.io/docs/install.html)
 * install [brew](http://linuxbrew.sh/)
 * swig `brew install swig`

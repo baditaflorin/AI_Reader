@@ -6,10 +6,17 @@ Dependencies
 ============
 
 * Python 2.7 - (https://www.python.org/downloads/)
-* bazel - First do this in Ubuntu 16.04 
+* bazel - First do this in Ubuntu 16.04 instructions [here](http://bazel.io/docs/install.html)
 * `wget https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg`
 * `sudo apt-key add apt-key.pub.gpg`
-* instructions [here](http://bazel.io/docs/install.html)
+* `sudo apt-get install pkg-config zip g++ zlib1g-dev unzip`
+* `sudo add-apt-repository ppa:webupd8team/java`
+* `sudo apt-get update`
+* `sudo apt-get install openjdk-8-jdk`
+* Download the Bazel installer for your operating system.
+* `wget https://github.com/bazelbuild/bazel/releases/download/0.4.1/bazel-0.4.1-installer-linux-x86_64.sh`
+* `chmod +x bazel-0.*`
+* `./bazel-version-installer-os.sh --user`
 * install [brew](http://linuxbrew.sh/)
 * swig `brew install swig`
 * protobuf `pip install -U protobuf==3.0.0b2`

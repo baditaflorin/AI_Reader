@@ -14,15 +14,16 @@ Dependencies
 * `sudo apt-get update`
 * `sudo apt-get install openjdk-8-jdk`
 * `sudo apt-get install oracle-java8-installer`
+* `export PATH="$PATH:$HOME/bin"`
 * Download the Bazel installer for your operating system.
 * `wget https://github.com/bazelbuild/bazel/releases/download/0.4.1/bazel-0.4.1-installer-linux-x86_64.sh`
 * `chmod +x bazel-0.*`
 * `./bazel-version-installer-os.sh --user`
 * install [brew](http://linuxbrew.sh/)
 * swig `brew install swig`
-* protobuf `pip install -U protobuf==3.0.0b2`
-* asciitree `pip install -U protobuf==3.0.0b2`
-* numpy `pip install numpy`
+* protobuf `sudo pip install -U protobuf==3.0.0b2`
+* asciitree `sudo pip install -U protobuf==3.0.0b2`
+* numpy `sudo pip install numpy`
 
 Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies
 

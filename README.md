@@ -7,6 +7,7 @@ Dependencies
 
 * Python 2.7 - (https://www.python.org/downloads/)
 * bazel - instructions [here](http://bazel.io/docs/install.html)
+* install [brew](http://linuxbrew.sh/)
 * swig `brew install swig`
 * protobuf `pip install -U protobuf==3.0.0b2`
 * asciitree `pip install -U protobuf==3.0.0b2`
